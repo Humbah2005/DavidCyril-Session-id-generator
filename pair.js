@@ -56,21 +56,21 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
-               let GIFTED_MD_TEXT = `
-*_Pair Code Connected by ZENITSU*
+               let humbah_MD_TEXT = `
+*_Pair Code Connected by humbah-md*
 *_Made With 🚬🗿_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN ZENITSU CRASH V2 』*
+║ *『 AMAZING YOU'VE CHOSEN humbah-md』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Ytube:* _https://www.youtube.com/@BTSMODZ
-║❒ *Owner:* https://wa.me/2348075952205_
-║❒ *Repo:* _https://github.com/Fearless-tech1_
+║❒ *Owner:* https://wa.me/263789677639_
+║❒ *Repo:* _https://github.com/humbah2005_
 ║❒ *WaGroup:* _https://chat.whatsapp.com/C3GFThC0tIpGaJY9DFUeCK
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VahusSh0QeaoFzHJCk2x
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb6EJfCHLHQQGd2KGL1P
 ║❒ *Plugins:* _https://github.com/Fearless-tech1 
 ╚════════════════════════╝
 _____________________________________
@@ -84,7 +84,7 @@ _Don't Forget To Give Star To My Repo_`
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    GIFTED_MD_PAIR_CODE();
+                    humbah_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
